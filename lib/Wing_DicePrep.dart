@@ -47,8 +47,9 @@ class YahtzeeHomeState extends State<YahtzeeHome>
   { return Scaffold
     ( 
       appBar: AppBar(
-        title: const Text("yahtzee")
+        title: const Text("yahtzee"),
       ),
+      backgroundColor: Colors.purple,
       body: Column (
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
