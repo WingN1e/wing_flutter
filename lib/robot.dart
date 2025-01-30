@@ -67,10 +67,12 @@ class _WarehouseGridState extends State<WarehouseGrid> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Expanded(
+          Flexible(
             child: GridView.builder(
+              shrinkWrap: true,
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: cols
+                crossAxisCount: cols,
+                childAspectRatio: 2.5,
               ), 
               itemCount: rows * cols,
               itemBuilder: (context, index) {
