@@ -9,7 +9,7 @@
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 
 import 'coords.dart';
-import 'chess_state.dart';
+import 'Wingchess_state.dart';
 
 class MoveState
 {

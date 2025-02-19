@@ -1,5 +1,5 @@
 // chess.dart
-// Barrett Koster 2015
+// Wing Nie 2025
 // This is starter code.  This is a pretty plain
 // chess shell that does NOT remember the state of
 // the game.  
@@ -13,7 +13,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:path_provider/path_provider.dart';
 
-import 'chess_state.dart';
+import 'Wingchess_state.dart';
 import 'move_state.dart';
 import 'coords.dart';
 

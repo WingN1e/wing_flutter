@@ -1,5 +1,5 @@
 // chess_state.dart
-// Barrett Koster 2025
+// Wing Nie 2025
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
