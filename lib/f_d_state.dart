@@ -13,7 +13,9 @@ class FDState
 
   // turns the object into a map
   Map<String,dynamic> toMap()
-  { return
+  { 
+    
+    return
     { 'food' : food ,
     };
   } 
@@ -53,5 +55,6 @@ class FDCubit extends HydratedCubit<FDState> // with HydratedMixin
   @override
   Map<String,dynamic> toJson( FDState state )
   { return state.toMap(); }
+
 }
 
